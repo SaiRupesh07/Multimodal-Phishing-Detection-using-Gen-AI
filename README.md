@@ -13,7 +13,7 @@ This project leverages:
 
 -Evaluation metrics (Accuracy, Precision, Recall, F1-Score) for performance tracking.
 
-//////////////////////////////////////////////////////////////////
+---
 ✨ Features
 
 📖 Text extraction from emails, images, and HTML pages.
@@ -25,35 +25,27 @@ This project leverages:
 📊 Performance metrics to evaluate model accuracy.
 
 ⚡ GPU acceleration with CUDA (if available).
-/////////////////////////////////////////////////////////////////
-📂 Project Structure
-phishing_detector/
-│── phishing_detector.ipynb   # Main Jupyter notebook
-│── TrainingSet_Modified.xlsx # Training dataset
-│── features_output.xlsx      # Extracted features & results
-│── images/                   # Folder containing sample images
-│── Alloutputs/               # Folder for HTML outputs
-│── README.md                 # Project documentation
-//////////////////////////////////////////////////////////////////
+---
+
 ⚙️ Installation
 
 Clone the repository and install dependencies:
 
-git clone https://github.com/your-username/phishing_detector.git
+->git clone https://github.com/your-username/phishing_detector.git
 cd phishing_detector
 pip install -r requirements.txt
 
 
-Or install manually inside Jupyter Notebook:
+->Or install manually inside Jupyter Notebook:
 
-%pip install transformers easyocr tqdm scikit-learn pandas pillow
+->%pip install transformers easyocr tqdm scikit-learn pandas pillow
 %pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 
 
-System dependencies:
+->System dependencies:
 
 apt install -y poppler-utils tesseract-ocr
-////////////////////////////////////////////////////////////////////
+---
 🚀 Usage
 
 1)Open the Jupyter Notebook:
@@ -76,7 +68,7 @@ jupyter notebook phishing_detector.ipynb
 .Train the phishing detection model.
 
 .Evaluate the model with test data.
-///////////////////////////////////////////////////////////////////
+---
 📊 Results
 
 The project reports:
@@ -90,7 +82,7 @@ The project reports:
 .F1-Score
 
 These metrics ensure balanced detection between phishing and legitimate cases.
-/////////////////////////////////////////////////////////////////////
+---
 🔮 Future Improvements
 
 .Add support for real-time email/webpage scanning.
