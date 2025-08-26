@@ -1,4 +1,5 @@
-🛡️ Multimodal-Phishing-Detection-using-Gen-AI 
+**🛡️ Multimodal-Phishing-Detection-using-Gen-AI **
+
 📌 Overview
 
 The Phishing Detector is an AI-powered system that identifies phishing attempts in online content such as emails, webpages, and images. It combines Natural Language Processing (NLP) with Optical Character Recognition (OCR) to extract and analyze text, then classifies the content as either phishing or legitimate.
@@ -24,10 +25,10 @@ This project leverages:
 
 📊 Performance metrics to evaluate model accuracy.
 
-⚡ GPU acceleration with CUDA (if available).
+⚡Gpu acceleration with CUDA (if available). 
 ---
 
-⚙️ Installation
+**⚙️ Installation**
 
 Clone the repository and install dependencies:
 
@@ -46,7 +47,7 @@ pip install -r requirements.txt
 
 apt install -y poppler-utils tesseract-ocr
 ---
-🚀 Usage
+**🚀 Usage**
 
 1)Open the Jupyter Notebook:
 
@@ -69,7 +70,7 @@ jupyter notebook phishing_detector.ipynb
 
 .Evaluate the model with test data.
 ---
-📊 Results
+**📊 Results**
 
 The project reports:
 
@@ -83,7 +84,7 @@ The project reports:
 
 These metrics ensure balanced detection between phishing and legitimate cases.
 ---
-🔮 Future Improvements
+**🔮 Future Improvements**
 
 .Add support for real-time email/webpage scanning.
 
